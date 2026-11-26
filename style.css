@@ -150,3 +150,12 @@ h2 { font-family: "Playfair Display", Georgia, serif; font-size: clamp(38px, 5vw
   nav { justify-content:flex-start; }
   .hero-meta span:last-child { display:none; }
 }
+.profile-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--sage);
+  outline: 1px solid rgba(124,138,138,.35);
+  outline-offset: 9px;
+}
